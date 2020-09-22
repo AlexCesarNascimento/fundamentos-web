@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>  
+    <ul id="menu">  
         <li>
             <a href="index.html">Home</a>
         </li> 
@@ -14,27 +15,62 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Alex</h1>
 
-    <h2>Lorem</h2>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam modi obcaecati laborum ab voluptate soluta tempora quo ratione eveniet assumenda animi, similique minima ipsam voluptatibus? Ab veniam voluptatibus illum quas?
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas, recusandae dignissimos accusantium nam minima ratione, dolorem harum numquam sunt fugit exercitationem veniam laborum, consequatur iusto voluptatem soluta voluptates. Animi!
-    </p>
+    <h1 class="center">Sobre o Alex</h1>
 
-    <img src="assets/img/Luffy.jpg" alt="Foto do criador desse conteudo">
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/AlexConfuso.jpg" alt="Foto do criador desse conteudo">
+        </div> 
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam modi obcaecati laborum ab voluptate soluta tempora quo ratione eveniet assumenda animi, similique minima ipsam voluptatibus? Ab veniam voluptatibus illum quas?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempore cum fugiat adipisci tenetur? Vel voluptatum soluta dolor facere impedit molestiae ad ullam natus? Consequuntur delectus tenetur facilis asperiores. Deleniti.
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas, recusandae dignissimos accusantium nam minima ratione, dolorem harum numquam sunt fugit exercitationem veniam laborum, consequatur iusto voluptatem soluta voluptates. Animi!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium accusamus mollitia aspernatur fugit aliquam quaerat velit pariatur dolorem consectetur, odit quo id. Natus alias earum et doloremque itaque doloribus?
+            </p>
+        </div>
+           
+    </div>
 
-    <h2>Meu video predileto:</h2>
+    
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/bCVkOqSDywI"
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    <h2 class="center">Meu video predileto:</h2>
+
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/bCVkOqSDywI"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/lexcn" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="logo do facebook">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/youtube.png" alt="logo do youtube">
+            </a>
+            <a href="https://www.linkedin.com/in/alexcesarn/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="logo do linkedin">
+            </a>
+            <a href="https://www.instagram.com/lex_acn/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="logo do instagram">
+            </a>      
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Alex Cesar Nascimento &copy;
+        </p>
+    </footer>
+    
 
 
 </body>
