@@ -15,6 +15,14 @@
     align-items: center;
 }
 
+.header {
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    background-color: #a6bddb;
+    padding: 2px;
+    top: 0;
+}
+
 #menu li {
     display: inline;
     padding: 15px; /*ou "margin: 30px;" */
